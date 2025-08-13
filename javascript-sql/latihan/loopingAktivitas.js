@@ -13,5 +13,3 @@ for (let i = 1; i <= 20; i++) {
         console.log("Apel Pagi"); 
     }
 }
-
-console.log("Jumlah semua bilangan genap adalah:", jumlah)
