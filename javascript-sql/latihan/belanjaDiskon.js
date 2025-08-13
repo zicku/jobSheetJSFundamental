@@ -18,7 +18,7 @@ if (totalAwal < 250000) {
     diskon = 0;
 } else if (totalAwal >= 250000 && totalAwal < 500000) {
     diskon = 0.05;
-} else if (totalAwal >= 500000 && totalAwal < 1000000) {
+} else if (totalAwal >= 500000 && totalAwal < 800000) {
     diskon = 0.10;
 } else {
     diskon = 0.15;
