@@ -12,7 +12,7 @@ console.log(`Mouse     = Rp. ${mouse}`);
 console.log(`Keyboard  = Rp. ${keyboard}`);
 console.log("");
 console.log(`Total Belanjaan = Rp. ${totalAwal}`);
-console.log(`Pembayaran      = Rp. ${uangPembayaran}`);
+
 
 if (totalAwal < 250000) {
     diskon = 0;
@@ -27,6 +27,7 @@ if (totalAwal < 250000) {
 hargaSetelahDiskon = totalAwal - (totalAwal * diskon);
 let uangKembalian = uangPembayaran - hargaSetelahDiskon;
 
-console.log(`Diskon             = ${diskon * 100}%`);
+console.log(`Diskon = ${diskon * 100}%`);
 console.log(`Total Setelah Diskon = Rp. ${hargaSetelahDiskon}`);
-console.log(`Kembalian            = Rp. ${uangKembalian}`);
+console.log(`Pembayaran = Rp. ${uangPembayaran}`);
+console.log(`Kembalian = Rp. ${uangKembalian}`);
