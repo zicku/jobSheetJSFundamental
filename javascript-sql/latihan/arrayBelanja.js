@@ -21,7 +21,7 @@ if (totalBelanjaan < 250000) {
     diskon = 0;
 } else if (totalBelanjaan >= 250000 && totalBelanjaan < 500000) {
     diskon = 0.05;
-} else if (totalBelanjaan >= 500000 && totalBelanjaan < 1000000) {
+} else if (totalBelanjaan >= 500000 && totalBelanjaan < 800000) {
     diskon = 0.10;
 } else {
     diskon = 0.15;
