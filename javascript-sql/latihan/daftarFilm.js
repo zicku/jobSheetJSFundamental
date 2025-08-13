@@ -20,6 +20,6 @@ console.log("data berhasil dimasukan");
 
 // menampilkan 
 data.forEach((item) => {
-    console.log(`${item.id}. nama : ${item.nama}, usia : ${item.gendre}`)
+    console.log(`${item.id}. nama : ${item.nama}, gendre : ${item.gendre}`)
     
 });
