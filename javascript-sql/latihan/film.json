@@ -1,0 +1,26 @@
+[
+
+  {
+    "id": 1,
+    "nama": "Agak Laen(2024)",
+    "gendre": [
+      "horor",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "Habibie & Ainun (2012)",
+    "gendre": [
+      "drama",
+      "romantis"
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "Dilan 1990 (2028)",
+    "gendre": [
+      "romantis"
+    ]
+  }
+]

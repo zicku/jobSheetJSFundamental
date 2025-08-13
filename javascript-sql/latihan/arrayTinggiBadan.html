@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Tinggi Badan yang Diurutkan</title>
+</head>
+<body>
+    <h1> Data Tinggi Badan yang Diurutkan</h1>
+    <div id="listNama"></div>
+</body>
+<script>
+    const tinggiBadan = {
+    Rosa: 178,
+    Magnolia: 153,
+    Daisy: 165,
+    Jasmine: 161,
+    Violet: 159,
+    }
+    
+    let namaSort =Object.keys(tinggiBadan).sort()
+    
+    let listHasil=""
+    namaSort.forEach(nama => {
+        listHasil = listHasil+ nama + ":"+ " " + tinggiBadan [nama] +"cm"+ "<br>" 
+    
+    }); 
+    document.getElementById("listNama").innerHTML= listHasil
+</script>
+</html>
